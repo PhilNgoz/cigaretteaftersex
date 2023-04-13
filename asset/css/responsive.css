@@ -1,0 +1,143 @@
+/* PC */
+@media (min-width:1024px){
+    #mobile-menu{
+        display: none;
+    }
+}
+
+/* Tablet & Mobile */
+
+@media(max-width:1023px){
+    .btn{
+        padding: 15px 16px;
+    }
+
+    #nav .subnav a{
+        padding: 2px 12px;
+    }
+
+    .form-control{
+        padding: 15px;
+    }
+
+    .social-list{
+        font-size: 30px
+    }
+
+    .social-list a{
+        margin: 0 4px;
+    }
+
+    .copyright a{
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+/* Tablet */
+@media(max-width:1023px) and (min-width: 740px){
+    #mobile-menu{
+        display: none;
+    }
+
+    /*Member avatar-size  */
+    .member-avt{
+        min-height: 181px;
+        max-height: 182px;
+    }
+
+    .contact-info{
+        line-height: 2.15;
+    }
+}
+
+/* Mobile */
+@media (max-width: 740px){
+    
+    /* Define size*/
+
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+
+    /* Header */
+    #header .search-btn {
+        display: none;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    /* Navbar */
+    #nav {
+        display: block;
+    }
+
+    #nav > li{
+        display: block;
+    }
+
+    #nav li a{
+        padding: 1px 24px;
+    }
+
+    #nav .subnav {
+        position: initial ;
+        background-color: #333;
+    }
+
+    #nav .subnav a{
+        padding: 5px 41px;
+        color: white;
+    }
+
+    #mobile-menu{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #nav li:first-child{
+        display: inline-block;
+    }
+
+    /* Slider */
+    .text-content{
+        bottom: 16px;
+    }
+
+    .text-desc{
+        margin-top: 8px;
+    }
+
+    /* Member-list fixes appearance */
+
+    #band .member-list{
+        padding-top: 0;
+    }
+
+    #band  .member-avt{
+        width: 60%;
+        min-height: 295.51px ;
+    }
+
+    /*Tour-section  */
+    .tour-section{
+        padding: 0px 6px;
+    }
+
+    /* Contact form */
+    .contact-form{
+        margin-top: 32px;
+    }
+
+    .contact-info{
+        line-height: 1.8;
+    }
+}
