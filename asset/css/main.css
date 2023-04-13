@@ -57,7 +57,7 @@
     display: inline-block;
     border: none;
     text-align: center;
-    -webkit-appearance: none;
+    appearance: none;
     padding: 11px 16px;
     margin-top: 15px;
     font-size: 15px;
